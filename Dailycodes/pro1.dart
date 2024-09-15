@@ -1,11 +1,12 @@
-class Demo {
-void fun();
-}
+class Test {
+  final int x ;
+final  int y;
 
-class Demo1 implements Demo {
-void fun() {}
+const Test(this.x,this.y);
 }
 
 void main() {
-Demo obj = Demo1();
+  Test obj = Test(40, 50);
+  print(obj.x);
+  print(obj.y);
 }
