@@ -1,0 +1,7 @@
+void main(){
+
+  final int x =10;
+  print(x);
+  x=20;
+  print(x);
+}
