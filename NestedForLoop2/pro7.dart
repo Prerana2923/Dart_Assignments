@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  // Taking user input for the number of rows
+  
   stdout.write("Enter the number of rows: ");
   int rows = int.parse(stdin.readLineSync()!);
 
